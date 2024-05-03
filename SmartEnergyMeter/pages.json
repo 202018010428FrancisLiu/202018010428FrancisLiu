@@ -1,0 +1,55 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "Login"
+		}
+	}, {
+		"path": "pages/tabBar/device/device",
+		"style": {
+			"navigationBarTitleText": "Device information"
+		}
+	}, {
+		"path": "pages/tabBar/reportforms/reportforms",
+		"style": {
+			"navigationBarTitleText": "Statistical report",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/tabBar/user/user",
+		"style": {
+			"navigationBarTitleText": "User Information"
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Hardware docking",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+			"pagePath": "pages/tabBar/device/device",
+			"iconPath": "static/template.png",
+			"selectedIconPath": "static/templateHL.png",
+			"text": "Device information"
+		}, {
+			"pagePath": "pages/tabBar/reportforms/reportforms",
+			"iconPath": "static/extui.png",
+			"selectedIconPath": "static/extuiHL.png",
+			"text": "Statistical report"
+		}, {
+			"pagePath": "pages/tabBar/user/user",
+			"iconPath": "static/component.png",
+			"selectedIconPath": "static/componentHL.png",
+			"text": "User Information"
+		}]
+	}
+}
